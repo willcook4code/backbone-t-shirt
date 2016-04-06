@@ -3,35 +3,68 @@
 body {
 	background: $light-grey;
 	div {
-		display: block;
-		margin: 0 1em;
-	  	width: 30%;
-	  	overflow: hidden;
-	  	float: left;
+	    margin: 0 3%;
+	    width: 25%;
+	    float: left;
+	    border: 2px solid #5BA3D6;
+	    color: #5BA3D6;
 		.topBox {
 			display: block;
-		  	width: 90%;
+		  	width: 100%;
 		  	float: left;
+		  	margin-left: 0em;
+		  	border: none;
 		  	span {
 		  		width: 1em;
 			    float: right;
-			    border-left: 1px solid black;
-			    border-bottom: 1px solid black;
+			    border-left: 2px solid #5BA3D6;
+			    border-bottom: 2px solid #5BA3D6;
 			    padding: 0.2em;
 			    clear: right;
 		  	}
 		  	.image {
-		  		padding: 1em;
-		  		height: 100%;
-		  		width: 100%;
+		  		margin: 0 auto;
+		  		padding: 1em 0 1em 1em;
+		  		height: 80%;
+		  		width: 80%;
+		  		border: none;
 		  	}
 		}
 	  	.iconBox {
-		  	padding: 0;
+		  	margin: 0;
 		  	display: block;
+		  	overflow: hidden;
+		  	float: none;
+		  	width: 100%;
+		  	border: none;
 		  	.options {
-		  		list-style: none;
+		  		margin: 0;
+		  		display: block;
+		  		overflow: hidden;
+		  		float: left;
+		  		padding: .7em 0em;
+		  		text-align: center;
+		  		border: 2px solid #5BA3D6;
+		  		border-left: none;
+		  		font-size: 1.1em;
+		  		width: 19.4%;
 		  	}
+	  		#shoppingCart {
+	  			border-right: none;
+	  		}
+		}
+		.title {
+			display: block;
+			border: none;
+			width: 50%;
+			padding: 1em 0;
+		}
+		.price {
+			display: block;
+			border: none;
+			float: right;
+			padding: 1em 0;
+			text-align: right;
 		}
 	}
 }

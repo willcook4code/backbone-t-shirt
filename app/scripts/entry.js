@@ -40,14 +40,11 @@ const basicView = Backbone.View.extend({
   					<img class="image" src="${tshirts[this.i].imageUrlFront}">
   				</div>
   				<div class="iconBox">
-		  		<ul>
 		  			<div class="options" id="refresh"><i class="fa fa-retweet"></i></div>
-
-		  			<li class="options" id="heart"><i class="fa fa-heart-o"></i></li>
-					<li class="options" id="xl">XL</li>
-					<li class="options" id="colorBox"><i class="fa fa-square"></i></li>
-					<li class="options" id="shoppingCart"><i class="fa fa-shopping-cart"></i></li>
-		  		</ul>
+		  			<div class="options" id="heart"><i class="fa fa-heart-o"></i></div>
+					<div class="options" id="xl">XL</div>
+					<div class="options" id="colorBox"><i class="fa fa-square"></i></div>
+					<div class="options" id="shoppingCart"><i class="fa fa-shopping-cart"></i></div>
 			  	</div>
 				<div class="title">${tshirts[this.i].title}</div>
 				<div class="price">$${tshirts[this.i].price}</div>`
