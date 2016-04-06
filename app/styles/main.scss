@@ -1,5 +1,37 @@
 @import 'variables';
 
 body {
-  background: $light-grey;
+	background: $light-grey;
+	div {
+		display: block;
+		margin: 0 1em;
+	  	width: 30%;
+	  	overflow: hidden;
+	  	float: left;
+		.topBox {
+			display: block;
+		  	width: 90%;
+		  	float: left;
+		  	span {
+		  		width: 1em;
+			    float: right;
+			    border-left: 1px solid black;
+			    border-bottom: 1px solid black;
+			    padding: 0.2em;
+			    clear: right;
+		  	}
+		  	.image {
+		  		padding: 1em;
+		  		height: 100%;
+		  		width: 100%;
+		  	}
+		}
+	  	.iconBox {
+		  	padding: 0;
+		  	display: block;
+		  	.options {
+		  		list-style: none;
+		  	}
+		}
+	}
 }

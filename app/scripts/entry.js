@@ -4,27 +4,30 @@ import $ from 'jquery';
 import Backbone from 'backbone';
 
 const tshirts = [
-  {
-    id: 1,
-    imageUrlFront: "http://fillmurray.com/250/250",
-    imageUrlBack: "http://placecage.com/250/250",
-    title: "Save my Trees",
-    price: 29
-  },
-  {
-    id: 2,
-    imageUrlFront: "http://fillmurray.com/250/250",
-    imageUrlBack: "http://placecage.com/250/250",
-    title: "Nature Lover",
-    price: 19
-  },
-  {
-    id: 3,
-    imageUrlFront: "http://fillmurray.com/250/250",
-    imageUrlBack: "http://placecage.com/250/250",
-    title: "Forest Walk",
-    price: 39
-  }
+	 {
+	   id: 1,
+	   imageUrlFront: "http://tympanus.net/Blueprints/ProductGridLayout/images/1_front.png",
+	   imageUrlBack: "http://tympanus.net/Blueprints/ProductGridLayout/images/1_back.png",
+	   title: "Save my Trees",
+	   price: 29
+
+	 },
+	 {
+	   id: 2,
+	   imageUrlFront: "http://tympanus.net/Blueprints/ProductGridLayout/images/2_front.png",
+	   imageUrlBack: "http://tympanus.net/Blueprints/ProductGridLayout/images/2_back.png",
+	   title: "Nature Lover",
+	   price: 19
+
+	 },
+	 {
+	   id: 3,
+	   imageUrlFront: "http://tympanus.net/Blueprints/ProductGridLayout/images/3_front.png",
+	   imageUrlBack: "http://tympanus.net/Blueprints/ProductGridLayout/images/3_back.png",
+	   title: "Forest Walk",
+	   price: 39
+
+	 }
 ]
 
 const basicView = Backbone.View.extend({
